@@ -20,7 +20,4 @@ https://en.wikipedia.org/wiki/International_Bank_Account_Number</Description>
     <None Remove="IbanValidation.nuspec" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" Version="2.1.1" />
-  </ItemGroup>
 </Project>
