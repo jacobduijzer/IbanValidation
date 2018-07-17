@@ -2,6 +2,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <Authors>Jan Verhaeghe</Authors>
+    <Product>IbanValidation</Product>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Summary>Basic plugin for using the Specification Pattern with Linq</Summary>
+    <Description>Provides IBAN bank account number validation.
+
+https://en.wikipedia.org/wiki/International_Bank_Account_Number</Description>
+    <PackageProjectUrl>https://github.com/janv8000/IbanValidation</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/janv8000/IbanValidation/blob/master/LICENSE</PackageLicenseUrl>
+<PackageTags>IBAN SEPA</PackageTags>
+    <RepositoryUrl>https://github.com/janv8000/IbanValidation</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="IbanValidation.nuspec" />
+  </ItemGroup>
 </Project>
